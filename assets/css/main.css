@@ -2806,11 +2806,31 @@ input[type="button"]:disabled,
 	padding: 4em 0 0 0;
 }
 
+#main>#two {
+	margin-top: 2.75em;
+	padding-top: 2.75em;
+}
+
 #main>section:first-child {
 	border-top: 0;
 	margin-top: 0;
 	padding-top: 0;
 }
+
+.experience-highlights {
+	font-size: 0.8em;
+	line-height: 1.65em;
+}
+
+#five h4 {
+	margin-top: 0.55em;
+	line-height: 1.35em;
+}
+
+#five h4:first-child {
+	margin-top: 0.25em;
+}
+ 
 
 /* Poptrox */
 
@@ -3288,6 +3308,11 @@ body.is-touch .poptrox-popup .closer {
 	#main>section {
 		margin: 2.25em 0 0 0;
 		padding: 2.25em 0 0 0;
+	}
+
+	#main>#two {
+		margin-top: 1.5em;
+		padding-top: 1.5em;
 	}
 
 	/* Poptrox */
